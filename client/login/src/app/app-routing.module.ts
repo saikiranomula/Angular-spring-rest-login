@@ -6,7 +6,7 @@ const routes: Routes = [
     path: 'users',
     component: UsersComponent,
     //canActivate: [OktaAuthGuard]
-  }
+  }//,  { path: 'login', component: LoginComponent }
 
 ];
 
