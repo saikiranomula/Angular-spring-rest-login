@@ -1,0 +1,46 @@
+<p>users works! asdfasdfasdfasdfasdfadsfa</p>
+  <h4>{{title}}</h4>
+
+
+<!-- <ul class="users demo">
+  <li *ngFor="let hero of books">
+
+      <span class="badge">{{users.id}}</span> {{users.name}}
+      <span class="badge">{{users.id}}</span> {{users.name}}
+
+  </li>
+</ul> -->
+<!-- <h3>Top Heroes</h3>
+<div class="users">
+  <a *ngFor="let user of users" class="col-1-4"
+      routerLink="/users">
+    <div class="module hero">
+      <h4>ID: {{user.id}} username is : {{user.name}}
+      </h4>
+    </div>
+  </a>
+</div> -->
+
+
+<h2>My Heroes</h2>
+
+<div>
+  <label>Hero name:
+    <input #heroName />
+  </label>
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button (click)="add(heroName.value); heroName.value=''">
+    add
+  </button>
+</div>
+
+<ul class="users">
+  <li *ngFor="let user of users">
+    <a routerLink="/detail/{{user.id}}">
+      <span class="badge">{{user.id}}</span>
+      {{user.username}},   {{user.dob}},   {{user.email}},   {{user.phone}}
+    </a>
+    <button class="delete" title="delete hero"
+      (click)="delete(user)">x</button>
+  </li>
+</ul>
