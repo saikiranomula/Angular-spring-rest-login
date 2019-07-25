@@ -8,15 +8,13 @@
 <h2>From here either login or register </h2>
 
 <!-- <h2><a routerLink="/books">New Link -->
-  <h2><a routerLink="/users">New Link</a></h2>
+  <h2><a routerLink="/users">New Link to view all users</a></h2>
   <h2><a routerLink="/login">Login</a></h2>
 
 
   <nav class="navbar navbar-expand navbar-dark bg-dark" *ngIf="!currentUser">
       <div class="navbar-nav">
-        <h1>
-          this is buchki
-        </h1>
+
           <a class="nav-item nav-link" routerLink="/">Home</a>
           <a class="nav-item nav-link" (click)="logout()">Logout</a>
       </div>
