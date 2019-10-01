@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\client",
+    "\\client\\login",
+    "\\client\\login\\src",
+    "\\client\\login\\src\\app",
+    "\\client\\login\\src\\app\\_services",
+    "\\src",
+    "\\src\\main",
+    "\\src\\main\\java",
+    "\\src\\main\\java\\com",
+    "\\src\\main\\java\\com\\mkyong",
+    "\\src\\test"
+  ],
+  "SelectedNode": "\\src\\main\\java\\com\\mkyong\\StartBookApplication.java",
+  "PreviewInSolutionExplorer": false
+}
